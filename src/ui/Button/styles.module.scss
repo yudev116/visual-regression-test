@@ -1,0 +1,14 @@
+.button {
+  border-radius: 5px;
+  padding: 8px;
+  background-color: #1a398e;
+  color: #fff;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:disabled{
+    background-color: #333;
+  }
+}
