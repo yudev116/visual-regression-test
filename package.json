@@ -14,7 +14,8 @@
     "mlint:fix": "markuplint --fix \"./src/**/*.tsx\"",
     "format": "prettier --write './src/**/*.{js,jsx,ts,tsx,json}'",
     "storybook": "storybook dev -p 6006",
-    "build:storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "chromatic"
   },
   "dependencies": {
     "next": "^13.5.4",
@@ -37,6 +38,7 @@
     "@types/react-dom": "latest",
     "@typescript-eslint/eslint-plugin": "^6.7.4",
     "@typescript-eslint/parser": "^6.7.4",
+    "chromatic": "^7.4.0",
     "eslint": "latest",
     "eslint-config-next": "latest",
     "eslint-config-prettier": "9.0.0",

@@ -10,15 +10,9 @@ export default meta;
 
 type Story = StoryObj<typeof Button>;
 
-export const Normal: Story = {
+export const Default: Story = {
 	args: {
 		children: 'Example',
 		disabled: false,
-	},
-};
-export const Disable: Story = {
-	args: {
-		children: 'Example',
-		disabled: true,
 	},
 };
